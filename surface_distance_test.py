@@ -22,8 +22,8 @@ import google3
 from absl.testing import absltest
 from absl.testing import parameterized
 import numpy as np
-import surface_distance
-from surface_distance.surface_distance import metrics
+import surfacedist as surface_distance
+from surfacedist import metrics
 
 
 class SurfaceDistanceTest(parameterized.TestCase, absltest.TestCase):
